@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/vec_add.dir/vec_add.cpp.o -o vec_add   -L/usr/local/cuda/lib64/libOpenCL.so  -Wl,-rpath,/usr/local/cuda/lib64/libOpenCL.so:/usr/local/cuda/lib64 /usr/local/cuda/lib64/libOpenCL.so 

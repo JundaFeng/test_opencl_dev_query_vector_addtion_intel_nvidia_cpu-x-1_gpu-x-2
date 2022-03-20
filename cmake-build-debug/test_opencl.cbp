@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test_opencl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vec_add">
+				<Option output="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/vec_add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/jundafeng/CLionProjects/test_opencl"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 vec_add"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vec_add/fast">
+				<Option output="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/vec_add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/jundafeng/CLionProjects/test_opencl"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 vec_add/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_query">
+				<Option output="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/dev_query" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/jundafeng/CLionProjects/test_opencl"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 dev_query"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_query/fast">
+				<Option output="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/dev_query" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/jundafeng/CLionProjects/test_opencl"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 dev_query/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jundafeng/CLionProjects/test_opencl/cxxtimer.hpp">
+			<Option target="vec_add"/>
+		</Unit>
+		<Unit filename="/home/jundafeng/CLionProjects/test_opencl/dev_query.cpp">
+			<Option target="dev_query"/>
+		</Unit>
+		<Unit filename="/home/jundafeng/CLionProjects/test_opencl/vec_add.cpp">
+			<Option target="vec_add"/>
+		</Unit>
+		<Unit filename="/home/jundafeng/CLionProjects/test_opencl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

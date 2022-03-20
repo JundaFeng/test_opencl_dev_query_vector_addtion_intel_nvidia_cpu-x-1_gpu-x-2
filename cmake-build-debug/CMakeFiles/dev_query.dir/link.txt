@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/dev_query.dir/dev_query.cpp.o -o dev_query   -L/usr/local/cuda/lib64/libOpenCL.so  -Wl,-rpath,/usr/local/cuda/lib64/libOpenCL.so:/usr/local/cuda/lib64 /usr/local/cuda/lib64/libOpenCL.so 

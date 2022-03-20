@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(test_opencl)
+
+set(CMAKE_CXX_STANDARD 11)
+find_package(OpenCL REQUIRED)
+include_directories(${OpenCL_INCLUDE_DIRS})
+link_directories(${OpenCL_LIBRARY})
+add_executable(dev_query dev_query.cpp)
+add_executable(vec_add vec_add.cpp cxxtimer.hpp)
+target_include_directories (dev_query PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries (dev_query ${OpenCL_LIBRARY})
+target_include_directories (vec_add PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries (vec_add ${OpenCL_LIBRARY})
