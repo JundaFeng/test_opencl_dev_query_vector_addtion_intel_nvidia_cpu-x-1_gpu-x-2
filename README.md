@@ -1,5 +1,10 @@
-# dev_query
-/home/jundafeng/CLionProjects/test_opencl/cmake-build-debug/dev_query
+## openCL-devQuery-vecAdd
+OpenCL examples:
+- Device Query
+- Vector Addition
+
+## console output for dev_query 
+```
 Number of available platforms: 3
 [0] Intel(R) CPU Runtime for OpenCL(TM) Applications
 [1] Intel(R) OpenCL HD Graphics
@@ -353,7 +358,10 @@ CL_DEVICE_NATIVE_VECTOR_WIDTH_LONG: 1
 CL_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT: 1
 CL_DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE: 1
 
-# vec_add
+```
+
+## console output for vec_add
+```
 Number of bytes in Giga: 0.12
 
 [0] Intel(R) CPU Runtime for OpenCL(TM) Applications
@@ -374,4 +382,5 @@ TIMER:: Vector addition on Intel(R) OpenCL HD Graphics took 266 milliseconds
 Result on NVIDIA CUDA: 1.01156e+07
 
 TIMER:: Vector addition on NVIDIA CUDA took 161 milliseconds
+```
 
